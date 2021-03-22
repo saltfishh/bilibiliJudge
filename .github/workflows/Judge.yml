@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: "*/30 22-15 * * *" # 早6-晚10每30分钟
+    - cron: "*/30 22-15 * * *" # 早6-晚10每30m
   watch:
     types: [started]
    
